@@ -1,0 +1,143 @@
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.name {
+    color: yellow;
+}
+
+header h1 {
+    background-color: blue;
+    margin: 0px;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    margin: 0px;
+    padding: 20px;
+}
+
+nav a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 90px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10%; /* Adjust the top and bottom margins */
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #333; /* Add a 2px solid border with color #333 */
+    border-radius: 15px 15px 15px 15px; /* Add a border radius of 15px for rounded corners */
+    margin: 0px 85px 15px 0px;
+}
+
+.me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    margin: 0%;
+    margin-bottom: 0px;
+}
+
+.me img {
+    margin-bottom: 20px;
+}
+
+section.about-me > h3 {
+    margin-top: 0;
+}
+
+.me img {
+    width: 15%;
+}
+
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: -20px;
+}
+
+.country {
+    display: flex;
+    justify-content: space-between; /* Distribute space between elements */
+}
+
+.left-column {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.about-peru {
+    line-height: 1.2; /* Adjust the line height */
+}
+
+.about-peru p {
+    margin: 0 auto;
+}
+
+.flag {
+    margin-bottom: 5px; /* Adjust the bottom margin between elements */
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 90%;
+}
+
+.resources ul {
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.resources li {
+    width: 200px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.resources a {
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
