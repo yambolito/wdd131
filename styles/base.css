@@ -30,12 +30,24 @@ nav {
     padding: 20px;
 }
 
+
+
 nav a {
     background-color: #333;
     color: #fff;
     text-decoration: none;
     margin: 0 90px;
+    transition: padding 0.3s ease; /* Agrega una transición suave a la propiedad padding */
 }
+
+nav a:hover {
+    padding: 12px 94px; /* Cambia ligeramente el padding al pasar el cursor sobre el enlace */
+}
+
+
+
+
+
 
 main {
     display: flex;

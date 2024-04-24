@@ -20,8 +20,20 @@ function updateDateTimeFooter() {
     dateTimeElement.textContent = `Last Modification: ${currentDateTime}`;
 }
 
+
+function currentDate() {
+    const copyrightYearElement = document.getElementById('copyright-year');
+    const currentYear = new Date().getFullYear();
+    copyrightYearElement.textContent = currentYear;
+}
+
+
+currentDate();
 // Call the function to update the date and time when the page loads
 updateDateTimeFooter();
 
 // Update the date and time every second
 setInterval(updateDateTimeFooter, 1000);
+
+
+
