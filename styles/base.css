@@ -14,9 +14,7 @@ header {
     padding: 0px;
 }
 
-.name {
-    color: yellow;
-}
+
 
 header h1 {
     background-color: blue;
@@ -53,6 +51,7 @@ main {
     display: flex;
     justify-content: space-between;
     margin: 2% 10%; /* Adjust the top and bottom margins */
+    max-width: 0%;
 }
 
 section {
